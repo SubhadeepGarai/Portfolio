@@ -100,7 +100,7 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
-@media(max-width:768px){
+@media(max-width:500px){
     .contact{
         gap: 50px;
         margin: 50px 70px;
@@ -109,7 +109,7 @@
     }
     .contact-title h1{
         padding: 0;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 600;
     }
     .contact-title img{
