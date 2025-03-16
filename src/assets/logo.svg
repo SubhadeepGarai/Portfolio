@@ -1,0 +1,20 @@
+<svg width="200" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stylish Gradient Text -->
+  <defs>
+    <linearGradient id="gradientText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FF6347"/>
+    </linearGradient>
+  </defs>
+
+  <text x="50%" y="50%" font-family="Brush Script MT, cursive" font-size="50" font-weight="bold" 
+        text-anchor="middle" dominant-baseline="middle"
+        fill="url(#gradientText)"
+        style="letter-spacing: 5px; font-style: italic; text-shadow: 4px 4px 6px rgba(255, 99, 71, 0.5);">
+    Subha....
+  </text>
+
+  <!-- Artistic Stroke Underline -->
+  <path d="M 70 80 Q 120 110, 170 80 T 230 80" 
+        fill="transparent" stroke="url(#gradientText)" stroke-width="4" stroke-linecap="round"/>
+</svg>
