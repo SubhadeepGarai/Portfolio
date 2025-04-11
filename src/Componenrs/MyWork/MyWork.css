@@ -24,6 +24,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
+    scroll-behavior: smooth;
+    transition: all 0.3s ease-in-out;
 }
 .mywork-container img{
     box-sizing: border-box;
@@ -47,8 +49,11 @@
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 80px;
-    transition: 0.6s;
+    transition: all 0.6s ease;
     cursor: pointer;
+}
+.mywork-showmore img{
+    transition: transform 0.6s ease;
 }
 .mywork-showmore:hover{
     gap: 30px;
@@ -71,12 +76,15 @@
         margin-right: -20px;
     }
     .mywork-container{
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        width: 100%;
     }
     .mywork-container img{
         width: 100%;
-        height: 100%;
+        height: auto;
+        aspect-ratio: 419/280;
+        object-fit: cover;
     }
     .mywork-showmore{
         padding: 20px 40px;
@@ -85,4 +93,34 @@
         cursor: pointer;
     }
 
+}
+@media(max-width:768px){
+    .mywork{
+        margin: 50px 40px;
+    }
+    .mywork-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+    .mywork-container img{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 419/280;
+        object-fit: cover;
+    }
+}
+@media(max-width:1024px){
+    .mywork{
+        margin: 60px 60px;
+    }
+    .mywork-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    .mywork-container img{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 419/280;
+        object-fit: cover;
+    }
 }
