@@ -1,10 +1,10 @@
-import project1_img from '../assets/project1.png'
-import project2_img from '../assets/project2.png'
-import project3_img from '../assets/project3.png'
-import project4_img from '../assets/project4.png'
-import project5_img from '../assets/project5.png'
-import project6_img from '../assets/project6.png'
-import project7_img from '../assets/project7.png'
+import project1_img from "./Work Image/project1.png"
+import project2_img from './Work Image/project2.png'
+import project3_img from './Work Image/project3.png'
+import project4_img from './Work Image/project4.png'
+import project5_img from './Work Image/project5.png'
+import project6_img from './Work Image/project6.png'
+import project7_img from './Work Image/project7.png'
 
 const mywork_data = [
     {
