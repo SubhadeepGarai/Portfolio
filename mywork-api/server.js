@@ -6,6 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors());
+app.use('/images', express.static('public/images'));
 
 app.get('/api/mywork', (req, res) => {
   res.json(myWorkData);
